@@ -1,0 +1,18 @@
+1.添加Gradle配置
+implementation 'me.jessyan:autosize:1.1.2'
+
+2.添加AndroidManifest配置
+//value自己定义设置 高和宽
+<manifest>
+    <application>    
+        ...
+        <meta-data
+            android:name="design_width_in_dp"
+            android:value="360"/>  
+        <meta-data
+            android:name="design_height_in_dp"
+            android:value="640"/>      
+        ...
+     
+     </application>           
+</manifest>
